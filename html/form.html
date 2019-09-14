@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="formhtml">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/central.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+
+
+    <title>Newsletter</title>
+</head>
+
+<body class="formbody">
+
+    <header class="formheader"><img src="../assets/mono_monkey.png" alt="logo">
+        <a class="back" href="../index.html">BACK</a></header>
+
+    <h1 id="check">Formvalidation //</h1>
+    <div class="row" id="frm">
+
+        <div class="formcontainer">
+            <form class="formval">
+
+                <div class="row">
+                    <div class="frm">
+                        <h3 class="form_h3">Billing Address</h3>
+                        <label>Mr.</label>
+                        <input type="checkbox" name="gender" id="mr">
+
+                        <label> Mrs.</label>
+                        <input type="checkbox" name="gender" id="mrs">
+
+                        <label> Full Name</label>
+                        <input type="text" id="input-fname" name="firstname" placeholder="Brad Wilson">
+
+                        <label> Email</label>
+                        <input type="text" id="email" name="email" placeholder="a@bc.com">
+
+                        <label> Job</label>
+                        <input type="text" id="input-adr" name="job" placeholder="ex. Designer">
+
+                        <label>City</label>
+                        <input type="text" id="input-city" name="city" placeholder="Zurich">
+
+                        <label>State</label>
+                        <input type="text" id="input-state" name="state" placeholder="ZH" maxlength="2">
+
+                        <label>Zip</label>
+                        <input type="text" id="input-zip" name="zip" placeholder="8431" maxlength="4">
+                    </div>
+                </div>
+                <label> Join our Discord
+                </label>
+                <input type="checkbox" checked="checked" id="shipping" name="Discord">
+                <label>Subscribe to our Newsletter</label>
+                <input type="checkbox" name="news" id="news" checked>
+
+                <button type="submit" id="frmbtn" value="Submit">Continue</button>
+            </form>
+        </div>
+        <div class="formcontainer2">
+            <h4>Products<span class="cart" style="color:black"><i class="fa fa-shopping-cart fa-1x"></i>
+                    <b>5</b></span></h4>
+            <hr>
+            <div class="prodbox">
+                <p> <img src="../assets/airmaxCROC.png" alt="nike" class="nike"><span class="desc">Air
+                        Jordan Low
+                        "Croc"</span>
+                    <span class="price1">$150</span></p>
+            </div>
+            <hr>
+            <div class="prodbox">
+                <p> <img src="../assets/airforce1off.png" alt="facemask" class="assc"><span class="desc">Air
+                        Force
+                        1 OFF-White </span>
+                    <span class="price1">$550</span></p>
+            </div>
+            <hr>
+            <div class="prodbox">
+                <p> <img src="../assets/stonenike.png" alt="foxshirt" class="fox"><span class="desc">Stone
+                        Island
+                        Nike Dart</span>
+                    <span class="price1">$250</span></p>
+            </div>
+            <hr>
+            <div class="prodbox">
+                <p> <img src="../assets/nikezoomoffblk.png" alt="Shirt" class="mj"><span class="desc">Nike
+                        Zoom
+                        OFF-White</span>
+                    <span class="price1">$550</span></p>
+            </div>
+            <hr>
+            <div class="prodbox">
+                <p> <img src="../assets/zoomoff.png" alt="jacket" class="tnf"><span class="desc">Nike
+                        Zoom
+                        OFF-White</span>
+                    <span class="price1">$550</span></p>
+            </div>
+            <hr>
+            <p>Total <span class="price"><b>$2050</b></span></p>
+
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.js"></script>
+    <script src="../js/formval.js"></script>
+
+</body>
+
+</html>
